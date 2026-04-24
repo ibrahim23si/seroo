@@ -22,6 +22,7 @@ class DatabaseSeeder extends Seeder
             'email' => 'superadmin@gmail.com', // Email yang diinginkan
             'password' => Hash::make('super123'), // Password yang diinginkan
             'role' => 'Super Administrator', // Role yang diinginkan
+             'profil' => 'default.png',
         ]);
     }
 }
